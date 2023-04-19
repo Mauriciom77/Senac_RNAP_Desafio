@@ -1,0 +1,2 @@
+model_checkpoint_path: "music-instruments-sounds-weights2"
+all_model_checkpoint_paths: "music-instruments-sounds-weights2"
