@@ -1,0 +1,8 @@
+Nome do modelo,Arquitetura,Loss,Accuracy
+modelo1,"Input(1024)|Dense(512, relu)|Dense(len(my_classes))",0.6073 ~ 0.8663,0.7181 ~ 0.7312
+modelo2,"Input(1024)|Dense(512, relu)|Dropout(0.5)|Dense(256, relu)|Dropout(0.5)|Dense(128, relu)|Dropout(0.5)|Dense(len(my_classes))",0.6022 ~ 0.6423,0.7132 ~ 0.7354
+modelo3,"Input(1024)|Dense(512, relu)|Dropout(0.5)|Dense(256, relu)|Dropout(0.5)|Dense(64, relu)|Dropout(0.5)|Dense(len(my_classes), softmax)",0.59052 ~ 0.6303,0.7113 ~ 0.7435
+modelo4,"Input(1024)|Dense(512, LeakyReLU(0.3))|Dropout(0.5)|Dense(256, LeakyReLU(0.3))|Dropout(0.5)|Dense(64, LeakyReLU(0.3))|Dropout(0.5)|Dense(16, LeakyReLU(0.3))|Dense(len(my_classes), softmax)",0.5962 ~ 0.5931,0.7223 ~ 0.7444
+modelo5,"Input(1024)|Dense(800, relu)|Dropout(0.5)|Dense(256, relu)|Dropout(0.5)|Dense(128, relu)|Dropout(0.5)|Dense(64, relu)|Dropout(0.5)|Dense(16, sigmoid)|Dense(len(my_classes), softmax)",0.5725 ~ 0.6113,0.7129 ~ 0.7076
+modelo6,"Input(1024)|Dense(512, relu)|Dropout(0.5)|Dense(256, relu)|Dropout(0.5)|Dense(64, relu)|Dropout(0.5)|Dense(len(my_classes), softmax)",0.6592 ~ 0.7351,0.7100 ~ 0.7405
+modelo7,"Input(1024)|Dense(512, relu)|Dense(350, relu)|Flatten()|Dense(325, relu)|Dense(200, relu)|Dense(len(my_classes), relu)",Loss não especificado,Accuracy não especificado

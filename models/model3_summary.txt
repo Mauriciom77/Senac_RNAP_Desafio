@@ -1,0 +1,23 @@
+Model: "music_instruments_sounds_model3"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_512_relu (Dense)      (None, 512)               524800    
+                                                                 
+ dropout_17 (Dropout)        (None, 512)               0         
+                                                                 
+ dense_256_relu (Dense)      (None, 256)               131328    
+                                                                 
+ dropout_18 (Dropout)        (None, 256)               0         
+                                                                 
+ dense_64_relu (Dense)       (None, 64)                16448     
+                                                                 
+ dropout_19 (Dropout)        (None, 64)                0         
+                                                                 
+ dense_16 (Dense)            (None, 4)                 260       
+                                                                 
+=================================================================
+Total params: 672,836
+Trainable params: 672,836
+Non-trainable params: 0
+_________________________________________________________________
