@@ -1,0 +1,26 @@
+Model: "music_instruments_sounds_model4"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_512_leakyrelu (Dense)  (None, 512)              524800    
+                                                                 
+ dropout_20 (Dropout)        (None, 512)               0         
+                                                                 
+ dense_256_leakyrelu (Dense)  (None, 256)              131328    
+                                                                 
+ dropout_21 (Dropout)        (None, 256)               0         
+                                                                 
+ dense_64_leakyrelu (Dense)  (None, 64)                16448     
+                                                                 
+ dropout_22 (Dropout)        (None, 64)                0         
+                                                                 
+ dense_16_nodrop_leakyrelu (  (None, 16)               1040      
+ Dense)                                                          
+                                                                 
+ dense_17 (Dense)            (None, 4)                 68        
+                                                                 
+=================================================================
+Total params: 673,684
+Trainable params: 673,684
+Non-trainable params: 0
+_________________________________________________________________
